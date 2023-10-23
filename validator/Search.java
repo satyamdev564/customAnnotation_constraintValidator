@@ -17,7 +17,7 @@ import java.util.Set;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ApplicationSearchRequest {
+public class Search {
  
     @PossibleDateTime(pattern = "yyyy-MM-dd", fallbackPatterns = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
     private String ArrivalDateTime;
